@@ -93,7 +93,7 @@ function searchCondition() {
           const treatment = condition.treatment;
 
           resultDiv.innerHTML += `<h2>${condition.name}</h2>`;
-          resultDiv.innerHTML += `<img src="${condition.imagesrc}" alt="hjh">`;
+          resultDiv.innerHTML += `<img src="${condition.imagesrc}" alt="">`;
 
           resultDiv.innerHTML += `<p><strong>Symptoms:</strong> ${symptoms}</p>`;
           resultDiv.innerHTML += `<p><strong>Prevention:</strong> ${prevention}</p>`;
