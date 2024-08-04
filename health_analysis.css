@@ -105,7 +105,7 @@ h2 {
   justify-self: center;
   align-items: center !important;
   justify-content: center !important;
-  text-align: center;
+  text-align: left;
 }
 
 #result img {

@@ -2,12 +2,34 @@ const addPatientButton = document.getElementById("addPatient");
 const report = document.getElementById("report");
 const btnSearch = document.getElementById('btnSearch');
 const patients = [];
+const available = []
+const conditionSelect = document.getElementById('condition');
+
+fetch('health_analysis.json')
+.then(response => response.json())
+.then(data => {
+  for (let i = 0; i < data.conditions.length; i++){
+    available.push(data.conditions[i].name)
+  }
+  for (condition of available) {
+    const newSelect = document.createElement('option');
+    newSelect.value = condition
+    newSelect.textContent = condition
+    conditionSelect.appendChild(newSelect)
+  }
+  }       
+);
+
+
+
+
 
 function addPatient() {
     const name = document.getElementById("name").value;
     const gender = document.querySelector('input[name="gender"]:checked');
     const age = document.getElementById("age").value;
     const condition = document.getElementById("condition").value;
+    
 
     if (name && gender && age && condition) {
       patients.push({ name, gender: gender.value, age, condition });
@@ -22,7 +44,6 @@ function addPatient() {
     const erase = setTimeout(function() {
       msgDiv = document.getElementById('ErrorDiv')
       msgDiv.innerHTML = ""
-      console.log(msgDiv.innerHTML)
       addPatientButton.removeAttribute('disabled');
     },2000)
 };
@@ -36,23 +57,19 @@ function resetForm() {
 
 function generateReport() {
     const numPatients = patients.length;
-    const conditionsCount = {
-      Diabetes: 0,
-      Thyroid: 0,
-      "High Blood Pressure": 0,
-    };
+    const conditionsCount = {};
+    for (const condition of available) {
+      conditionsCount[condition] = 0;
+    }
     const genderConditionsCount = {
-      Male: {
-        Diabetes: 0,
-        Thyroid: 0,
-        "High Blood Pressure": 0,
-      },
-      Female: {
-        Diabetes: 0,
-        Thyroid: 0,
-        "High Blood Pressure": 0,
-      },
+      Male: {},
+      Female: {},
     };
+    for (const condition of available) {
+      genderConditionsCount["Male"][condition] = 0;
+      genderConditionsCount["Female"][condition] = 0;
+    }
+    console.log(genderConditionsCount)
 
     for (const patient of patients) {
       conditionsCount[patient.condition]++;

@@ -102,7 +102,505 @@
 
         "treatment": "Medications like ACE inhibitors or diuretics may be prescribed."
 
+      },
+      {
+        "name": "Diabetes",
+        "imagesrc": "diabetes.jpeg",
+        "symptoms": [
+          "Increased thirst",
+          "Frequent urination",
+          "Extreme hunger",
+          "Unexplained weight loss",
+          "Fatigue"
+        ],
+        "prevention": [
+          "Maintain a healthy diet",
+          "Exercise regularly",
+          "Maintain a healthy weight",
+          "Avoid smoking"
+        ],
+        "treatment": "Insulin therapy, oral medications, and lifestyle changes."
+      },
+      {
+        "name": "Asthma",
+        "imagesrc": "asthma.jpeg",
+        "symptoms": [
+          "Shortness of breath",
+          "Chest tightness",
+          "Wheezing",
+          "Coughing"
+        ],
+        "prevention": [
+          "Avoid allergens",
+          "Use air filters",
+          "Maintain a healthy weight",
+          "Exercise regularly"
+        ],
+        "treatment": "Inhalers, corticosteroids, and bronchodilators."
+      },
+      {
+        "name": "Migraine",
+        "imagesrc": "migraine.jpeg",
+        "symptoms": [
+          "Severe headache",
+          "Nausea",
+          "Sensitivity to light",
+          "Sensitivity to sound",
+          "Visual disturbances"
+        ],
+        "prevention": [
+          "Identify and avoid triggers",
+          "Maintain a consistent sleep schedule",
+          "Manage stress",
+          "Stay hydrated"
+        ],
+        "treatment": "Pain relievers, anti-nausea medications, and triptans."
+      },
+      {
+        "name": "Depression",
+        "imagesrc": "depression.jpeg",
+        "symptoms": [
+          "Persistent sadness",
+          "Loss of interest",
+          "Fatigue",
+          "Changes in appetite",
+          "Sleep disturbances"
+        ],
+        "prevention": [
+          "Regular exercise",
+          "Healthy diet",
+          "Stress management",
+          "Seeking social support"
+        ],
+        "treatment": "Antidepressants, therapy, and lifestyle changes."
+      },
+      {
+        "name": "Allergic Rhinitis",
+        "imagesrc": "allergic_rhinitis.jpeg",
+        "symptoms": [
+          "Sneezing",
+          "Runny or stuffy nose",
+          "Itchy eyes",
+          "Watery eyes",
+          "Coughing"
+        ],
+        "prevention": [
+          "Avoid allergens",
+          "Use air purifiers",
+          "Keep windows closed",
+          "Wash hands frequently"
+        ],
+        "treatment": "Antihistamines, decongestants, and nasal corticosteroids."
+      },
+      {
+        "name": "Osteoporosis",
+        "imagesrc": "osteoporosis.jpeg",
+        "symptoms": [
+          "Bone fractures",
+          "Back pain",
+          "Loss of height",
+          "Stooped posture"
+        ],
+        "prevention": [
+          "Calcium-rich diet",
+          "Vitamin D supplementation",
+          "Regular weight-bearing exercise",
+          "Avoid smoking and excessive alcohol"
+        ],
+        "treatment": "Bisphosphonates, calcium and vitamin D supplements, and hormone therapy."
+      },
+      {
+        "name": "Chronic Obstructive Pulmonary Disease (COPD)",
+        "imagesrc": "copd.jpeg",
+        "symptoms": [
+          "Chronic cough",
+          "Shortness of breath",
+          "Wheezing",
+          "Chest tightness"
+        ],
+        "prevention": [
+          "Avoid smoking",
+          "Avoid exposure to lung irritants",
+          "Vaccinations for flu and pneumonia"
+        ],
+        "treatment": "Bronchodilators, steroids, oxygen therapy, and lifestyle changes."
+      },
+      {
+        "name": "Alzheimer's Disease",
+        "imagesrc": "alzheimers.jpeg",
+        "symptoms": [
+          "Memory loss",
+          "Confusion",
+          "Difficulty with problem-solving",
+          "Mood changes"
+        ],
+        "prevention": [
+          "Engage in mental activities",
+          "Maintain a healthy diet",
+          "Regular physical exercise",
+          "Social engagement"
+        ],
+        "treatment": "Cholinesterase inhibitors and memantine."
+      },
+      {
+        "name": "Arthritis",
+        "imagesrc": "arthritis.jpeg",
+        "symptoms": [
+          "Joint pain",
+          "Stiffness",
+          "Swelling",
+          "Reduced range of motion"
+        ],
+        "prevention": [
+          "Maintain a healthy weight",
+          "Regular exercise",
+          "Protect joints from injury",
+          "Healthy diet"
+        ],
+        "treatment": "Pain relievers, anti-inflammatory medications, and physical therapy."
+      },
+      {
+        "name": "Influenza",
+        "imagesrc": "influenza.jpeg",
+        "symptoms": [
+          "Fever",
+          "Chills",
+          "Muscle aches",
+          "Cough",
+          "Sore throat"
+        ],
+        "prevention": [
+          "Annual flu vaccination",
+          "Good hand hygiene",
+          "Avoid close contact with sick individuals"
+        ],
+        "treatment": "Antiviral medications and supportive care."
+      },
+      {
+        "name": "Anemia",
+        "imagesrc": "anemia.jpeg",
+        "symptoms": [
+          "Fatigue",
+          "Pale skin",
+          "Shortness of breath",
+          "Dizziness",
+          "Cold hands and feet"
+        ],
+        "prevention": [
+          "Iron-rich diet",
+          "Vitamin B12 and folate supplementation",
+          "Regular check-ups"
+        ],
+        "treatment": "Iron supplements, vitamin B12 injections, and treating underlying causes."
+      },
+      {
+        "name": "Eczema",
+        "imagesrc": "eczema.jpeg",
+        "symptoms": [
+          "Itchy skin",
+          "Red patches",
+          "Dry, cracked skin",
+          "Thickened skin"
+        ],
+        "prevention": [
+          "Moisturize regularly",
+          "Avoid triggers like allergens and irritants",
+          "Use gentle soaps"
+        ],
+        "treatment": "Topical corticosteroids, moisturizers, and antihistamines."
+      },
+      {
+        "name": "Psoriasis",
+        "imagesrc": "psoriasis.jpeg",
+        "symptoms": [
+          "Red patches with silvery scales",
+          "Dry, cracked skin",
+          "Itching",
+          "Burning or soreness"
+        ],
+        "prevention": [
+          "Avoid skin injuries",
+          "Manage stress",
+          "Maintain a healthy weight"
+        ],
+        "treatment": "Topical treatments, phototherapy, and systemic medications."
+      },
+      {
+        "name": "Gastroesophageal Reflux Disease (GERD)",
+        "imagesrc": "gerd.jpeg",
+        "symptoms": [
+          "Heartburn",
+          "Regurgitation",
+          "Chest pain",
+          "Difficulty swallowing",
+          "Chronic cough"
+        ],
+        "prevention": [
+          "Avoid trigger foods",
+          "Eat smaller meals",
+          "Avoid lying down after eating",
+          "Maintain a healthy weight"
+        ],
+        "treatment": "Antacids, H2 blockers, and proton pump inhibitors."
+      },
+      {
+        "name": "Urinary Tract Infection (UTI)",
+        "imagesrc": "uti.jpeg",
+        "symptoms": [
+          "Burning sensation during urination",
+          "Frequent urination",
+          "Cloudy urine",
+          "Strong-smelling urine",
+          "Pelvic pain"
+        ],
+        "prevention": [
+          "Stay hydrated",
+          "Urinate regularly",
+          "Wipe from front to back",
+          "Avoid irritating feminine products"
+        ],
+        "treatment": "Antibiotics and drinking plenty of fluids."
+      },
+      {
+        "name": "Bronchitis",
+        "imagesrc": "bronchitis.jpeg",
+        "symptoms": [
+          "Cough with mucus",
+          "Fatigue",
+          "Shortness of breath",
+          "Chest discomfort"
+        ],
+        "prevention": [
+          "Avoid smoking",
+          "Avoid lung irritants",
+          "Vaccinations for flu and pneumonia"
+        ],
+        "treatment": "Rest, fluids, cough medicine, and in some cases, antibiotics."
+      },
+      {
+        "name": "Gout",
+        "imagesrc": "gout.jpeg",
+        "symptoms": [
+          "Severe joint pain",
+          "Swelling",
+          "Redness",
+          "Warmth in the affected area"
+        ],
+        "prevention": [
+          "Limit alcohol and purine-rich foods",
+          "Maintain a healthy weight",
+          "Stay hydrated"
+        ],
+        "treatment": "Nonsteroidal anti-inflammatory drugs (NSAIDs), corticosteroids, and medications to lower uric acid levels."
+      },
+      {
+        "name": "Pneumonia",
+        "imagesrc": "pneumonia.jpeg",
+        "symptoms": [
+          "Fever",
+          "Cough with phlegm",
+          "Chest pain",
+          "Shortness of breath",
+          "Fatigue"
+        ],
+        "prevention": [
+          "Vaccination",
+          "Good hygiene practices",
+          "Avoid smoking"
+        ],
+        "treatment": "Antibiotics, antiviral medications, and supportive care."
+      },
+      {
+        "name": "Sinusitis",
+        "imagesrc": "sinusitis.jpeg",
+        "symptoms": [
+          "Facial pain",
+          "Nasal congestion",
+          "Runny nose",
+          "Loss of smell",
+          "Cough"
+        ],
+        "prevention": [
+          "Avoid respiratory infections",
+          "Manage allergies",
+          "Avoid cigarette smoke"
+        ],
+        "treatment": "Decongestants, saline nasal sprays, and in some cases, antibiotics."
+      },
+      {
+        "name": "Appendicitis",
+        "imagesrc": "appendicitis.jpeg",
+        "symptoms": [
+          "Sudden pain in the lower right abdomen",
+          "Nausea",
+          "Vomiting",
+          "Loss of appetite",
+          "Fever"
+        ],
+        "prevention": [
+          "There is no known prevention for appendicitis."
+        ],
+        "treatment": "Surgical removal of the appendix."
+      },
+      {
+        "name": "Celiac Disease",
+        "imagesrc": "celiac_disease.jpeg",
+        "symptoms": [
+          "Abdominal pain",
+          "Diarrhea",
+          "Bloating",
+          "Fatigue",
+          "Weight loss"
+        ],
+        "prevention": [
+          "Avoid gluten-containing foods"
+        ],
+        "treatment": "Strict gluten-free diet."
+      },
+      {
+        "name": "Irritable Bowel Syndrome (IBS)",
+        "imagesrc": "ibs.jpeg",
+        "symptoms": [
+          "Abdominal pain",
+          "Cramping",
+          "Bloating",
+          "Gas",
+          "Diarrhea or constipation"
+        ],
+        "prevention": [
+          "Dietary changes",
+          "Stress management",
+          "Regular exercise"
+        ],
+        "treatment": "Dietary adjustments, medications, and stress management techniques."
+      },
+      {
+        "name": "Multiple Sclerosis",
+        "imagesrc": "multiple_sclerosis.jpeg",
+        "symptoms": [
+          "Numbness or weakness",
+          "Vision problems",
+          "Tingling or pain",
+          "Tremors",
+          "Fatigue"
+        ],
+        "prevention": [
+          "No known prevention, focus on managing symptoms."
+        ],
+        "treatment": "Disease-modifying therapies, corticosteroids, and physical therapy."
+      },
+      {
+        "name": "Parkinson's Disease",
+        "imagesrc": "parkinsons_disease.jpeg",
+        "symptoms": [
+          "Tremor",
+          "Slowed movement",
+          "Muscle stiffness",
+          "Impaired posture and balance",
+          "Speech changes"
+        ],
+        "prevention": [
+          "No known prevention, focus on managing symptoms."
+        ],
+        "treatment": "Medications, deep brain stimulation, and physical therapy."
+      },
+      {
+        "name": "Rheumatoid Arthritis",
+        "imagesrc": "rheumatoid_arthritis.jpeg",
+        "symptoms": [
+          "Joint pain",
+          "Swelling",
+          "Stiffness",
+          "Fatigue",
+          "Fever"
+        ],
+        "prevention": [
+          "No known prevention, focus on early diagnosis and treatment."
+        ],
+        "treatment": "Disease-modifying antirheumatic drugs (DMARDs), biologics, and physical therapy."
+      },
+      {
+        "name": "Lupus",
+        "imagesrc": "lupus.jpeg",
+        "symptoms": [
+          "Fatigue",
+          "Joint pain",
+          "Butterfly-shaped rash on the face",
+          "Fever",
+          "Skin lesions"
+        ],
+        "prevention": [
+          "Avoid sun exposure",
+          "Avoid stress",
+          "Maintain a healthy lifestyle"
+        ],
+        "treatment": "Anti-inflammatory drugs, corticosteroids, and immunosuppressive drugs."
+      },
+      {
+        "name": "Epilepsy",
+        "imagesrc": "epilepsy.jpeg",
+        "symptoms": [
+          "Seizures",
+          "Temporary confusion",
+          "Staring spells",
+          "Uncontrollable jerking movements",
+          "Loss of consciousness"
+        ],
+        "prevention": [
+          "Avoid known triggers",
+          "Regular medication",
+          "Healthy lifestyle"
+        ],
+        "treatment": "Antiepileptic drugs, surgery, and lifestyle changes."
+      },
+      {
+        "name": "Hyperthyroidism",
+        "imagesrc": "hyperthyroidism.jpeg",
+        "symptoms": [
+          "Unintentional weight loss",
+          "Rapid heartbeat",
+          "Increased appetite",
+          "Nervousness",
+          "Sweating"
+        ],
+        "prevention": [
+          "No specific prevention, focus on managing symptoms and underlying causes."
+        ],
+        "treatment": "Antithyroid medications, radioactive iodine, and surgery."
+      },
+      {
+        "name": "Hypothyroidism",
+        "imagesrc": "hypothyroidism.jpeg",
+        "symptoms": [
+          "Fatigue",
+          "Weight gain",
+          "Cold intolerance",
+          "Constipation",
+          "Dry skin"
+        ],
+        "prevention": [
+          "No specific prevention, focus on regular screening and managing symptoms."
+        ],
+        "treatment": "Thyroid hormone replacement therapy."
+      },
+      {
+        "name": "Atrial Fibrillation",
+        "imagesrc": "atrial_fibrillation.jpeg",
+        "symptoms": [
+          "Palpitations",
+          "Weakness",
+          "Reduced ability to exercise",
+          "Fatigue",
+          "Dizziness"
+        ],
+        "prevention": [
+          "Maintain a healthy lifestyle",
+          "Manage risk factors like hypertension",
+          "Avoid excessive alcohol and caffeine"
+        ],
+        "treatment": "Medications, electrical cardioversion, and ablation therapy."
       }
+
 
     ]
 
