@@ -31,7 +31,7 @@ function addPatient() {
     const condition = document.getElementById("condition").value;
     
 
-    if (name && gender && age && condition) {
+    if (name && gender && age !== isNaN && condition) {
       patients.push({ name, gender: gender.value, age, condition });
       resetForm();
       generateReport();
@@ -76,15 +76,15 @@ function generateReport() {
       genderConditionsCount[patient.gender][patient.condition]++;
     }
 
-    report.innerHTML = `Number of patients: ${numPatients}<br><br>`;
-    report.innerHTML += `Conditions Breakdown:<br>`;
+    report.innerHTML = `<h2>Number of patients: ${numPatients}</h2><br><br>`;
+    report.innerHTML += `<h3>Conditions Breakdown:</h3><br>`;
     for (const condition in conditionsCount) {
       report.innerHTML += `${condition}: ${conditionsCount[condition]}<br>`;
     }
 
-    report.innerHTML += `<br>Gender-Based Conditions:<br>`;
+    report.innerHTML += `<br><h3>Gender-Based Conditions:</h3><br>`;
     for (const gender in genderConditionsCount) {
-      report.innerHTML += `${gender}:<br>`;
+      report.innerHTML += `<h3>${gender}:</h3><br>`;
       for (const condition in genderConditionsCount[gender]) {
         report.innerHTML += `&nbsp;&nbsp;${condition}: ${genderConditionsCount[gender][condition]}<br>`;
       }
