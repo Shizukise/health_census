@@ -13,7 +13,18 @@ function addPatient() {
       patients.push({ name, gender: gender.value, age, condition });
       resetForm();
       generateReport();
+    } else {
+      let msgDiv = document.getElementById('ErrorDiv');
+      let msg = document.createTextNode("Enter all parameters correctly, please.");
+      msgDiv.appendChild(msg);
+      addPatientButton.setAttribute('disabled','true')
     }
+    const erase = setTimeout(function() {
+      msgDiv = document.getElementById('ErrorDiv')
+      msgDiv.innerHTML = ""
+      console.log(msgDiv.innerHTML)
+      addPatientButton.removeAttribute('disabled');
+    },2000)
 };
 
 function resetForm() {
